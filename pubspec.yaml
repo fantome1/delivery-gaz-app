@@ -43,6 +43,7 @@ dependencies:
   responsive_framework: ^0.1.9
   intl_phone_field: ^3.1.0
   pinput: ^2.2.21
+  google_nav_bar: ^5.0.6
 
 dev_dependencies:
   flutter_test:
