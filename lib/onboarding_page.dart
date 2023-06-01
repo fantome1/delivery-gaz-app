@@ -69,22 +69,22 @@ class _OnboardingPageState extends State<OnboardingPage> {
       ),
       pages: [
         PageViewModel(
-          title: "Acheter vos tickets en ligne",
-          body: "Acheter vos ticket n'importe où et à n'importe quel moment",
-          image: _buildImage('img1.png'),
-          decoration: pageDecoration,
-        ),
-        PageViewModel(
-          title: "Rester en alerte et réagisser vite",
-          body:
-              "Rester informé des départs et d’arrivées des cars de transport",
+          title: "Bienvenue dans notre application",
+          body: "Découvrez les fonctionnalités incroyables que nous offrons",
           image: _buildImage('img2.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-            title: "Devenez un abonné de la compagnie",
+          title: "Facile à utiliser",
+          body:
+              "Notre application est conçue pour être conviviale et intuitive",
+          image: _buildImage('img1.png'),
+          decoration: pageDecoration,
+        ),
+        PageViewModel(
+            title: "Commandez en ligne",
             body:
-                "Bénéficiez des offres exceptionnelles et des bonus  des compagnies de transport",
+                "Commandez facilement des bouteiles de gaz depuis votre smartphone",
             image: _buildImage('img3.png'),
             decoration: pageDecoration,
             footer: Container(
