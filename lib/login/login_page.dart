@@ -64,9 +64,6 @@ class _LoginPageState extends State<LoginPage> {
                 child: ListView(
                   padding: const EdgeInsets.all(16.0),
                   children: [
-                    TextStyling.textFieldTitle(
-                        "Numéro d'identité(CNIB, Passport, etc.)"),
-                    Forms.textField(idController),
                     const SizedBox(height: 10),
                     TextStyling.textFieldTitle("Numéro de téléphone"),
                     Forms.phoneField(phoneController),

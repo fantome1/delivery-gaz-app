@@ -77,9 +77,6 @@ class _SignUpPageState extends State<SignUpPage> {
                       shrinkWrap: true,
                       padding: const EdgeInsets.all(16.0),
                       children: [
-                        TextStyling.textFieldTitle(
-                            "Numéro d'identité(CNIB, Passport, etc.)"),
-                        Forms.textField(idController),
                         const SizedBox(height: 10),
                         TextStyling.textFieldTitle("Nom"),
                         Forms.textField(nameController),
